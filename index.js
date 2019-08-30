@@ -18,7 +18,7 @@ app.get('/sample', function(req, res) {
 // START THE SERVER
 // ==============================================
 app.listen(port);
-console.log('Magic happens on port ' + port);
+console.log('Port number :  ' + port);
 
 // we'll create our routes here
 
@@ -43,6 +43,11 @@ router.get('/', function(req, res) {
 // about page route (http://localhost:8080/about)
 router.get('/about', function(req, res) {
     res.send('im the about page! Date : ' + time); 
+});
+
+// details page route (http://localhost:8080/about)
+router.get('/details', function(req, res) {
+    res.send('im the details page! Date : ' + time); 
 });
 
 // apply the routes to our application
