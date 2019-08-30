@@ -1,5 +1,5 @@
 # Poc1Angular
-This project was generated for NOde JS wi8th Express.
+This project was generated for Node JS with Express.
 
 ## NPM
 Install npm using `npm install`.
